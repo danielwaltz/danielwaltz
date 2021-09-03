@@ -8,8 +8,8 @@ const getLanguages = () => [
 ];
 
 const getLibraries = () => [
-  'React',
   'Apollo Client',
+  'React',
 ];
 
 const getFrameworks = () => [
