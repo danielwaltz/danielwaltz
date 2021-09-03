@@ -16,6 +16,7 @@ const getFrameworks = () => [
 ];
   
 const getHobbies = () => [
+  'Coffee',
   'Music',
   'Programming',
   'Video Games',
