@@ -7,8 +7,12 @@ const getLanguages = () => [
   'TypeScript',
 ];
 
-const getFrameworks = () => [
+const getLibraries = () => [
   'React',
+  'Apollo Client',
+];
+
+const getFrameworks = () => [
   'React Native',
   'Next.js',
   'Svelte',
@@ -24,12 +28,14 @@ const getHobbies = () => [
 
 const createProfile = (name: string) => {  
   const languages = getLanguages();
+  const libraries = getLibraries();
   const frameworks = getFrameworks();
   const hobbies = getHobbies();
   
   return {
     name,
     languages,
+    libraries,
     frameworks,
     hobbies,
   }
