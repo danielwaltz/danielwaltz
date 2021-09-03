@@ -1,18 +1,46 @@
-### Hi there 👋
+```typescript
+const getLanguages = () => [
+  'CSS',
+  'GraphQL',
+  'HTML',
+  'JavaScript',
+  'TypeScript',
+];
 
-<!--
-**danielwaltz/danielwaltz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+const getFrameworks = () => [
+  'React',
+  'React Native',
+  'Next.js',
+  'Svelte',
+  'Vue',
+];
+  
+const getHobbies = () => [
+  'Music',
+  'Programming',
+  'Video Games',
+];
 
-Here are some ideas to get you started:
+const createProfile = (name: string) => {  
+  const languages = getLanguages();
+  const frameworks = getFrameworks();
+  const hobbies = getHobbies();
+  
+  return {
+    name,
+    languages,
+    frameworks,
+    hobbies,
+  }
+};
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export const daniel = createProfile('Daniel Waltz');
+```
 
-Hello yes. I am developer.
+<a href="https://github-readme-stats.vercel.app/api?username=loftwah&theme=tokyonight&show_icons=true">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=danielwaltz&theme=tokyonight&show_icons=true" />
+</a>
+
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=loftwah&theme=tokyonight">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielwaltz&theme=tokyonight" />
+</a>
