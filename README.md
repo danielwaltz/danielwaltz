@@ -7,7 +7,7 @@
     srcset="https://github-readme-stats.vercel.app/api?username=danielwaltz&show_icons=true"
     media="(prefers-color-scheme: light)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=danielwaltz&show_icons=true" align="left" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api?username=danielwaltz&show_icons=true" align="left" height="191" />
 </picture>
 
 <picture>
@@ -19,5 +19,5 @@
     srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=danielwaltz&layout=compact"
     media="(prefers-color-scheme: light)"
   />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielwaltz&layout=compact" align="left" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielwaltz&layout=compact" align="left" height="191" />
 </picture>
