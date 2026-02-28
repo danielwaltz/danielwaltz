@@ -1,13 +1,13 @@
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=danielwaltz&show_icons=true&theme=nord"
+    srcset="profile/stats.svg"
     media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=danielwaltz&show_icons=true"
+    srcset="profile/stats.svg"
     media="(prefers-color-scheme: light)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=danielwaltz&show_icons=true" align="left" height="191" />
+  <img src="profile/stats.svg" align="left" height="191" />
 </picture>
 
 <picture>
